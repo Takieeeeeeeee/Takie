@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKF Project - 学生のハウジングサポート</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #005bac;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header img {
+            height: 100px; /* ここで高さを調整 */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #005bac;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .house-list {
+            list-style: none;
+            padding: 0;
+        }
+        .house-list li {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .house-list h3 {
+            margin: 0;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-container input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        .search-container input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #005bac;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Capture-2024-06-01-211111.png" alt="TKF Project Logo">
+        <h1>学生のハウジングサポート</h1>
+    </header>
+    <nav>
+        <a href="#">ホーム</a>
+        <a href="#">ハウスリスト</a>
+        <a href="#">検索</a>
+        <a href="#">お問い合わせ</a>
+    </nav>
+    <div class="container">
+        <h2>ハウスリスト</h2>
+        <div class="search-container">
+            <input type="text" placeholder="地域、価格帯などで検索">
+            <input type="submit" value="検索">
+        </div>
+        <ul class="house-list">
+            <li>
+                <h3>5925 Capitol Hill Avenue, Richmond, CA 94806</h3>
+                <p>Short term: $30/day, Long term: $800/month (光熱費 Wifi込み)</p>
+                <a href="details_5925_capitol.html">詳細を見る</a>
+            </li>
+            <li>
+                <h3>3 Serramar Dr, Oakland, CA 94611, USA</h3>
+                <p>Long term: $1000/month (光熱費 Wifi込み, 食事 $200/month)</p>
+                <a href="details_3_serramar.html">詳細を見る</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
